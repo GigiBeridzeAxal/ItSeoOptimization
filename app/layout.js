@@ -66,24 +66,48 @@ export default function RootLayout({ children }) {
   return (
     <html lang="it">
       <head>
-        <link
+     
+<Link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/apple-touch-icon.webp"
         />
-        <link rel="preconnect" href="https://avexim.com" />
-        <link rel="preconnect" href="https://admin.avexim.com" />
-        <link rel="preconnect" href="https://api.avexim.com" />
-        <link rel="dns-prefetch" href="https://avexim.com" />
-        <link rel="dns-prefetch" href="https://admin.avexim.com" />
-        <link rel="dns-prefetch" href="https://api.avexim.com" />
-
-        <link
-          rel="preload"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
+        <Link rel="preconnect"  href={"https://avexim.com"} />
+        <Link rel="preconnect" href={"https://admin.avexim.com"} />
+        <Link rel="preconnect" href={"https://api.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
+           
+<Link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.webp"
         />
+        <Link rel="preconnect"  href={"https://avexim.com"} />
+        <Link rel="preconnect" href={"https://admin.avexim.com"} />
+        <Link rel="preconnect" href={"https://api.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
+
+   
+        <Link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.webp"
+        />
+        <Link rel="preconnect"  href={"https://avexim.com"} />
+        <Link rel="preconnect" href={"https://admin.avexim.com"} />
+        <Link rel="preconnect" href={"https://api.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
+
+
+
+
+
       </head>
       <body
         className={`${montserratSans.variable} ${montserratMono.variable} antialiased overflow-x-hidden`}
