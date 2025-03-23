@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import localFont from "next/font/local";
 import "./globals.css";
+import Link from "next/link";
 
 import("intl-tel-input/styles");
 import("react-toastify/dist/ReactToastify.css");
@@ -66,28 +67,25 @@ export default function RootLayout({ children }) {
   return (
     <html lang="it">
       <head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.webp"
-        />
-        <link rel="preconnect" href="https://avexim.com" />
-        <link rel="preconnect" href="https://admin.avexim.com" />
-        <link rel="preconnect" href="https://api.avexim.com" />
-        <link rel="dns-prefetch" href="https://avexim.com" />
-        <link rel="dns-prefetch" href="https://admin.avexim.com" />
-        <link rel="dns-prefetch" href="https://api.avexim.com" />
-
-        <link
-          rel="preload"
-          as="font"
-          type="font/ttf"
-          crossOrigin="anonymous"
-        />
+       
       </head>
       <body
         className={`${montserratSans.variable} ${montserratMono.variable} antialiased overflow-x-hidden`}
       >
+
+<Link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.webp"
+        />
+        <Link rel="preconnect"  href={"https://avexim.com"} />
+        <Link rel="preconnect" href={"https://admin.avexim.com"} />
+        <Link rel="preconnect" href={"https://api.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
+        <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
+
+
         <h1 className="sr-only">Pura+ | Ortopedia Fisioterapia Salud Belleza</h1>
 
         <Suspense fallback={<div>Loading...</div>}>
