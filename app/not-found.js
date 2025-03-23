@@ -45,7 +45,7 @@ const NotFound = () => {
             priority={false}
             alt="error page"
           />
-          <Link href="/">
+          <Link href={"/"}>
             <IconRenderer
               iconName={data?.loading_error?.[0]?.icon_name}
               className="m-auto text-3xl my-3 whatsapp_icon_social"

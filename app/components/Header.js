@@ -59,7 +59,7 @@ const Header = () => {
       <nav className="container m-auto relative">
         <div className="flex items-center justify-between py-6">
           <div className="logo_wrapper w-5/6 lg:w-1/6">
-            <Link href="/">
+            <Link href={"/"}>
               <Image
                 src={`${process.env.NEXT_PUBLIC_POST_URL}/api/uploads/${data?.logo[0].site_logo}`}
                 width={150}
