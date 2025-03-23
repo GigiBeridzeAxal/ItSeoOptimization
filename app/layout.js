@@ -78,33 +78,7 @@ export default function RootLayout({ children }) {
         <Link rel="dns-prefetch" href={"https://avexim.com"} />
         <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
         <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
-           
-<Link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.webp"
-        />
-        <Link rel="preconnect"  href={"https://avexim.com"} />
-        <Link rel="preconnect" href={"https://admin.avexim.com"} />
-        <Link rel="preconnect" href={"https://api.avexim.com"} />
-        <Link rel="dns-prefetch" href={"https://avexim.com"} />
-        <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
-        <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
-
-   
-        <Link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.webp"
-        />
-        <Link rel="preconnect"  href={"https://avexim.com"} />
-        <Link rel="preconnect" href={"https://admin.avexim.com"} />
-        <Link rel="preconnect" href={"https://api.avexim.com"} />
-        <Link rel="dns-prefetch" href={"https://avexim.com"} />
-        <Link rel="dns-prefetch" href={"https://admin.avexim.com"} />
-        <Link rel="dns-prefetch" href={"https://api.avexim.com"} />
-
-
+        
 
 
 

@@ -33,11 +33,8 @@ const MostPopular = ({title}) => {
         {isError && <div>Error fetching posts</div>}
         {data &&
           data.map((post, index) => (
-            <Link
-              href={post.post_slug}
-              key={index}
-              className="flex items-start gap-4 py-2 border-b "
-            >
+            <Link href={`/${post.post_slug}`} key={index} className="flex items-start gap-4 py-2 border-b">
+
               <Image
                 src={extractImage(post.post_desc)}
                 alt={post.post_title}
